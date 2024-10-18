@@ -1,9 +1,9 @@
 function Search() {
   return (
     <>
-      <div className="bg-blue-200 w-full h-16 p-2">
-        <div className="bg-green-200 h-full w-full p-2">
-          <div className="bg-red-200 h-full w-full flex justify-center items-center">
+      <div className="w-full h-16 p-2">
+        <div className="h-full w-full p-2">
+          <div className="border border-gray h-full w-full flex justify-center items-center">
             <form className="flex gap-2 items-center">
               Search
               <input

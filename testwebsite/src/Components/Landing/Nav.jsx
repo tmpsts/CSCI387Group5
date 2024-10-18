@@ -1,10 +1,10 @@
 function Nav() {
   return (
     <>
-      <div className="bg-green-200 h-screen w-20 p-2">
-        <div className="bg-red-200 h-full p-2 flex flex-col justify-between gap-4">
+      <div className="h-screen w-20 p-2 border-r-2">
+        <div className="h-full p-2 flex flex-col justify-between gap-4">
           <div className="flex flex-col gap-4">
-            <div className="bg-blue-200 h-10 flex justify-center items-center">
+            <div className="shadow-md rounded-md border border-gray-100 h-10 flex justify-center items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -15,7 +15,7 @@ function Nav() {
                 <path d="m12 5.432 8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 0 1-.75-.75v-4.5a.75.75 0 0 0-.75-.75h-3a.75.75 0 0 0-.75.75V21a.75.75 0 0 1-.75.75H5.625a1.875 1.875 0 0 1-1.875-1.875v-6.198a2.29 2.29 0 0 0 .091-.086L12 5.432Z" />
               </svg>
             </div>
-            <div className="bg-blue-200 h-10 flex justify-center items-center">
+            <div className="shadow-md rounded-md border border-gray-100 h-10 flex justify-center items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -25,7 +25,7 @@ function Nav() {
                 <path d="M5.625 3.75a2.625 2.625 0 1 0 0 5.25h12.75a2.625 2.625 0 0 0 0-5.25H5.625ZM3.75 11.25a.75.75 0 0 0 0 1.5h16.5a.75.75 0 0 0 0-1.5H3.75ZM3 15.75a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75ZM3.75 18.75a.75.75 0 0 0 0 1.5h16.5a.75.75 0 0 0 0-1.5H3.75Z" />
               </svg>
             </div>
-            <div className="bg-blue-200 h-10 flex justify-center items-center">
+            <div className="shadow-md rounded-md border border-gray-100 h-10 flex justify-center items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -37,7 +37,7 @@ function Nav() {
             </div>
           </div>
           <div className="flex flex-col gap-4">
-            <div className="bg-blue-200 h-10 flex justify-center items-center">
+            <div className="shadow-md rounded-md border border-gray-100 h-10 flex justify-center items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -51,7 +51,7 @@ function Nav() {
                 />
               </svg>
             </div>
-            <div className="bg-blue-200 h-10 flex justify-center items-center">
+            <div className="shadow-md rounded-md border border-gray-100 h-10 flex justify-center items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"

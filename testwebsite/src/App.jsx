@@ -1,6 +1,6 @@
-import Nav from "./Components/Nav";
-import Search from "./Components/Search";
-import Products from "./Components/Products";
+import Nav from "./Components/Landing/Nav";
+import Search from "./Components/Landing/Search";
+import Products from "./Components/Landing/Products";
 import Login from "./Components/Login";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
