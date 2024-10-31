@@ -1,16 +1,16 @@
 function Search() {
   return (
     <>
-      <div className="w-full h-16 p-2">
+      <div className="w-full h-16 p-2 dark:text-white">
         <div className="h-full w-full p-2">
-          <div className="border border-gray h-full w-full flex justify-center items-center">
+          <div className="h-full w-full flex justify-center items-center">
             <form className="flex gap-2 items-center">
               Search
               <input
                 type="text"
                 id="search"
                 name="search"
-                className="bg-white rounded-md px-1 text-black"
+                className="bg-[#f9f9f9] rounded-md px-1 text-black"
               ></input>
               <button>
                 <svg
